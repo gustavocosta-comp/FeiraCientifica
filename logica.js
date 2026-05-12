@@ -43,5 +43,5 @@ formulário.addEventListener('submit',function(event) {
     const bairro = formulário.querySelector('input').value;
     const problema = formulário.querySelector('select').value;
     alert('Relato enviado com sucesso!\n\nLocal:' + bairro + '\nProblema: ' + problema + '\n\nNossa equipe de saneamento irá analisar a situação.');
-    formulário.requestFullscreen();
+    formulário.reset();
 });
