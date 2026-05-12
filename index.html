@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saneamento Maracanaú</title>
+    <link rel="stylesheet" href="https:unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="fcca.css">
+</head>
+<body>
+    <header>
+    <h1>Mapeamento Digital do Saneamento em Maracanaú
+    <p>Ferramenta de Suporte à Gestão Pública</p>
+    </header>
+    <section id="indicadores ">
+        <h2>Indicadores de Coberturas</h2>
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>Abastecimento de Água</h3>
+                <p class="numero">99,42%</p>
+                <canvas id="chartAgua"></canvas>
+            </div>
+            <div class="card">
+                <h3>Esgotamento sanitário</h3>
+                <p class="numero">50,87%</p>
+                <canvas id="chartEsgoto"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="mapeamento">
+        <h2>Mapa de Infraestrutura Urbana</h2>
+        <div id="map"></div>
+    </section>
+    <section id="relato">
+        <h2>Relate um Problema</h2>
+        <form id="form-cidadao">
+            <label>Bairro:</label>
+            <input type="text"placeholder="Ex:Pajuçara">
+            <label>Tipo de Problema</label>
+            <select>
+                <option>Falta de Esgotamento</option>
+                <option>Rua Sem Asfalto</option>
+                <option>Vazamento de Àgua</option>
+                <option>Sem Coleta de Lixo</option>
+            </select>
+            <button type="submit">Enviar Relato</button>
+        </form>
+    </section>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="logica.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <script src="logica.js"></script>
+
+    
+    
+  
+</body>
+</html>

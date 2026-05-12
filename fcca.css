@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    background-color: darkgreen;
+    color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.dashboard-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}
+form{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+button{
+    background-color: darkgreen;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
